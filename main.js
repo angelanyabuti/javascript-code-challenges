@@ -1,7 +1,5 @@
-const name = 'john';
-const age = 30;
+//string properties
+const s = 'Hello world'
 
-//concatenation
-console.log('My name is ' +name+ ' and I am ' +age);
-//Template String
-console.log(`My name is ${name} and I am ${age}`)
+console.log(s.split(''))
+

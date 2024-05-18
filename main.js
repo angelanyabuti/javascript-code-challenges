@@ -1,15 +1,24 @@
-//object literals
-const person = {
-    fname: 'john',
-    lname: 'Doe',
-    age: 30,
-    hobbies: ['music', 'movies', 'sports'],
-    address:{
-        street: '50 main st',
-        city: 'Boston',
-        state: 'MA'
-    }
-}
+//Array of objects 
+//Converting an array of objects to JSON 
+const todos = [
+    {
+        id: 1,
+        text: 'Take out trash',
+        isCompleted: true
+    },
+    {
+        id: 2,
+        text: 'Meeting with boss',
+        isCompleted: true
+    },
+    {
+        id: 3,
+        text: 'Dentist Appointment',
+        isCompleted: false
+    },
+];
 
-console.log(person.hobbies[1])
+const todoJSON = JSON.stringify(todos)
+
+console.log(todoJSON)
 

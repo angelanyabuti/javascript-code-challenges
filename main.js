@@ -1,28 +1,18 @@
-//Array of objects 
-//Converting an array of objects to JSON 
-const todos = [
-    {
-        id: 1,
-        text: 'Take out trash',
-        isCompleted: true
-    },
-    {
-        id: 2,
-        text: 'Meeting with boss',
-        isCompleted: true
-    },
-    {
-        id: 3,
-        text: 'Dentist Appointment',
-        isCompleted: false
-    },
-];
+//condition statements
+//if statement
+//ternary operator
+//switch
+const x=9
+ const color = x >10 ? 'red' : 'blue'
 
-// forEach, map, filter
-const todoCompleted = todos.filter(function(todo){
-    return todo.isCompleted === true
-})
-
-console.log(todoCompleted)
-
-
+switch (color) {
+    case 'red':
+        console.log('color is red')
+        break;
+    case 'blue':
+        console.log('color is blue')
+        break;
+    default:
+        console.log('color is NOT red or blue')
+        break;
+}

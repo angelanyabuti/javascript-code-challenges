@@ -18,16 +18,11 @@ const todos = [
     },
 ];
 
-//Loops
-//For loop
-for(let i=0; i<=10; i++){
-    console.log(i)
-}
-//while loop
-let i=0;
-while(i<10){
-    console.log(i)
-    i++;
-    
-}
+// forEach, map, filter
+const todoCompleted = todos.filter(function(todo){
+    return todo.isCompleted === true
+})
+
+console.log(todoCompleted)
+
 

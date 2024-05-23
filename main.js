@@ -1,11 +1,6 @@
-//OOP
-//constructor function
-function Person(fname, lname, dob) {
-    this.fname = fname;
-    this.lname = lname;
-    this.dob =  new Date(dob);
-}
+//The DOM 
+//selection
+//Single Element selector
+console.log(document.getElementById('my-form'));
+console.log(document.querySelector('h1'));
 
-//Instantiate object
-const person1 = new Person('John', 'Doe', '4-3-1980');
-console.log(person1.dob.getFullYear())

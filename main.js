@@ -1,10 +1,11 @@
-//The DOM 
-//selection
-//Single Element selector
-console.log(document.getElementById('my-form'));
-console.log(document.querySelector('h1'));
+//manipulating the dom
+const ul = document.querySelector('.items');
+//ul.remove()
+//ul.lastElementChild.remove()
+ul.firstElementChild.textContent = 'Hello';
+ul.children[1].innerText = 'Brad'
+ul.lastElementChild.innerHTML = '<h1>Hello<h1>'
 
-//multiple element
-const items = document.querySelectorAll('.item');
-
-items.forEach((item)=>console.log(item));
+//styling
+const btn = document.querySelector('.btn');
+btn.style.background = 'green'
